@@ -5,6 +5,26 @@ export const Container = styled.View`
   background: #fff;
 `;
 
+export const OverlayContainer = styled.View`
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #000000;
+  opacity: 0.9;
+`;
+
+export const SuccessText = styled.Text`
+  font-family: 'Poppins-Bold';
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 25px;
+`;
+
 export const Header = styled.View`
   padding: 40px 24px 20px;
   background: #c72828;
